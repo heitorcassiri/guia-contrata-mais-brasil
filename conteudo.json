@@ -414,9 +414,9 @@
      "tipo": "passo",
      "n": 1,
      "titulo": "Abra o site do Contrata+Brasil",
-     "toque": "Abra **gov.br/contratamaisbrasil** e toque no **banner** (a imagem grande) da página inicial.",
-     "aparece": "A página com as oportunidades de serviço.",
-     "erro": "Entrar em site falso. O endereço certo sempre termina em **gov.br**.",
+     "toque": "Abra **gov.br/contratamaisbrasil**, desça a página e toque em **\"Acessar a plataforma\"**. Se aparecer um aviso de cookies, toque em \"Aceitar cookies\" ou \"Rejeitar cookies\".",
+     "aparece": "A página da plataforma, com a pergunta **\"Qual oportunidade você está buscando hoje?\"**.",
+     "erro": "Tocar no banner (a imagem grande do topo). Ele leva para uma página de explicação, não para a plataforma. E cuidado com site falso: o endereço certo termina em **gov.br**.",
      "print": "img/passo-1.png"
     }
    ],
@@ -439,8 +439,8 @@
      "tipo": "passo",
      "n": 2,
      "titulo": "Entre com a sua conta gov.br",
-     "toque": "Toque em **\"Entrar com gov.br\"**. Na página inicial, o botão pode aparecer como **\"Entrar na plataforma\"**.",
-     "aparece": "A tela do gov.br. Digite seu **CPF** e a sua **senha**.",
+     "toque": "Toque no botão verde **\"Entrar na plataforma\"**.",
+     "aparece": "A tela do gov.br. Digite o **número do seu CPF** e toque em **\"Continuar\"**. Depois, siga o que a tela pedir (senha ou aplicativo gov.br).",
      "erro": "Não ter conta gov.br. Se for o seu caso, digite seu CPF e siga as etapas para criar a conta.",
      "print": "img/passo-2.png"
     }

@@ -57,7 +57,11 @@ Fonte: [Tutorial oficial "Como se inscrever na plataforma" — versão 2.0, set/
 
 🔄 **Mudou em relação ao levantamento inicial:** o fluxo antigo ("Meu Perfil" → "Editais: aceitar termos" → "Organizações → Adicionar Organização" → porte "MEI" → "Gerenciar Serviços") **não aparece mais** no tutorial oficial v2.0. Agora é **"Minhas Empresas" → CNPJ → Serviços → "Inscrever empresa"**. O edital ainda prevê aceitar os Termos de Uso e declarar ciência do edital (item 2.4), mas o tutorial não mostra em que tela isso acontece. ⚠️ Confirmar na plataforma com uma conta real.
 
-⚠️ A página inicial da plataforma (contratamaisbrasil.sistema.gov.br) hoje mostra um botão **"Entrar na plataforma"** e escolhas **"Serviços" / "Alimentos"**; o tutorial fala em "Entrar com gov.br". Provavelmente "Entrar com gov.br" é a tela seguinte. Confirmar ao tirar os prints.
+🔄 **Conferido no navegador simulando celular Android, em 24/11/2026 (prints dos passos 1 e 2):**
+- O **banner** do topo de gov.br/contratamaisbrasil hoje leva para "Conheça o Contrata+Brasil", **não** para a plataforma. O caminho certo é o botão **"Acessar a plataforma"**, mais abaixo na mesma página (link para contratamaisbrasil.sistema.gov.br). O tutorial oficial (passo 2, "clique no banner") está desatualizado nesse ponto.
+- Na plataforma, o botão é **"Entrar na plataforma"** (verde). Ele leva **direto** para a tela do gov.br (sso.acesso.gov.br), que pede **"Número do CPF"** → **"Continuar"**. Não existe um botão "Entrar com gov.br" no meio.
+- O site oficial mostra um aviso de cookies ("Rejeitar cookies" / "Aceitar cookies") na primeira visita.
+- ⚠️ Passos 3 a 7 exigem login com conta gov.br real: não foram conferidos na tela.
 
 FAQ oficial: se o serviço de uma oportunidade não estiver cadastrado na sua empresa, vá em **"Minhas Empresas"**, selecione a empresa e adicione o serviço com o mesmo nome. ([Perguntas e Respostas — Fornecedor](https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/perguntas-e-respostas))
 
