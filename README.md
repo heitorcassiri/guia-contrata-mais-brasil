@@ -95,7 +95,8 @@ Tire os prints **no celular**, com a sua conta, e salve com estes nomes na pasta
 4. Teste o QR com a câmera do celular antes de imprimir várias cópias.
 
 Dá para gerar um cartaz com outro endereço ou instituição sem editar nada:
-`cartaz.html?url=https://outro-endereco&inst=Nome da instituição`
+`cartaz.html?url=https://outro-endereco&inst=Nome da instituição&end=Rua, número - Bairro`
+(o `&end=` é opcional e mostra o endereço embaixo do nome).
 
 ---
 

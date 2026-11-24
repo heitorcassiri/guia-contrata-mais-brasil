@@ -33,7 +33,9 @@ h1 em{font-style:normal;color:#FFE2D3}
 .passos b{display:block;color:var(--pri);font-size:20pt;line-height:1}
 .inst{margin-top:7mm;border:0.6mm dashed #BFB3A2;border-radius:5mm;padding:4mm 6mm;display:flex;align-items:center;gap:4mm;min-height:20mm}
 .inst small{font-size:11pt;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:800;white-space:nowrap}
-.inst span{font-size:18pt;font-weight:800}
+.inst span{font-size:18pt;font-weight:800;display:block;line-height:1.15}
+.inst em{display:block;font-style:normal;font-size:13pt;color:var(--muted);margin-top:1mm}
+.inst em:empty{display:none}
 .rod{margin-top:5mm;font-size:10.5pt;color:var(--muted);line-height:1.35}
 @page{size:A4;margin:0}
 @media print{
@@ -73,7 +75,7 @@ h1 em{font-style:normal;color:#FFE2D3}
     <div><b>2</b>Aponte para o quadrado</div>
     <div><b>3</b>Toque no link que aparecer</div>
   </div>
-  <div class="inst"><small>Instituição parceira</small><span id="inst"></span></div>
+  <div class="inst"><small>Instituição parceira</small><div><span id="inst"></span><em id="end"></em></div></div>
   <p class="rod">Guia gratuito e independente, feito em projeto de extensão universitária. <b>Não é site do governo</b> e não garante contratação. Site oficial: gov.br/contratamaisbrasil</p>
 </div>
 <script>
@@ -2376,17 +2378,18 @@ var qrcode = function() {
 }));
 
 (function(){
-  function desenhar(url, inst){
+  function desenhar(url, inst, end){
     var qr = qrcode(0, 'M'); qr.addData(url); qr.make();
     document.getElementById('qr').innerHTML = qr.createSvgTag({cellSize: 8, margin: 2, scalable: true});
     document.getElementById('url').textContent = url.replace(/^https?:\/\//, '');
     document.getElementById('inst').textContent = inst || '';
+    document.getElementById('end').textContent = end || '';
   }
   var padrao = location.href.replace(/[^/]*([?#].*)?$/, '');
   var p = new URLSearchParams(location.search);
   fetch('conteudo.json', {cache: 'no-cache'}).then(function(r){ return r.json(); }).then(function(c){
-    desenhar(p.get('url') || c.config.urlGuia || padrao, p.get('inst') || c.config.nomeInstituicao);
-  }).catch(function(){ desenhar(p.get('url') || padrao, p.get('inst')); });
+    desenhar(p.get('url') || c.config.urlGuia || padrao, p.get('inst') || c.config.nomeInstituicao, p.get('end') || c.config.enderecoInstituicao);
+  }).catch(function(){ desenhar(p.get('url') || padrao, p.get('inst'), p.get('end')); });
 })();
 </script>
 </body>
