@@ -45,6 +45,26 @@ Faculdades com NAF atendem MEI de graça em parceria com a Receita Federal. Apar
 
 ---
 
+## Atestado de comparecimento para a extensão
+
+O critério principal é: **o local precisa ter um responsável com poder de assinar em papel timbrado ou com carimbo e CNPJ.**
+Esta classificação é uma estimativa a partir do tipo de instituição. Ninguém confirmou isso por escrito, então **pergunte já no primeiro contato**.
+
+| Local | Facilidade | Quem assina | Observação |
+|---|---|---|---|
+| **CEU Vila Alpina** | Alta | Gestor(a) ou coordenação do CEU | CEUs recebem estágios e projetos de faculdade com frequência e têm carimbo e papel timbrado da SME. **Melhor equilíbrio entre facilidade, perto de casa e sala com computador.** |
+| **ONGs (Arca do Saber, Bonsai Vila Prudente)** | Alta | Presidente ou coordenador(a) | Costumam assinar rápido, em papel timbrado com CNPJ. Mesmo assim, confirme o CNPJ ativo, que algumas faculdades exigem. |
+| **ETEC Sapopemba** | Alta | Direção ou coordenação | Escola acostumada a declarações. Mas fica mais longe. |
+| **Descomplica / CATe Vila Prudente** | Média | Supervisor(a) da unidade ou chefia de gabinete da Subprefeitura | É o mais perto, mas é órgão público com hierarquia. A declaração pode exigir ofício ou e-mail formal da faculdade e demorar. Vale tentar, mas **não dependa só dele**. |
+| **Senac Vila Prudente** | Média | Gerência da unidade | Instituição grande, com processos próprios para parcerias. |
+| **CRAS, CCA, feira AMOVIZA** | Baixa ou variável | — | Bons para divulgar, mas não conte com eles para o atestado. |
+
+### Como garantir o atestado
+1. Veja na coordenação da extensão se existe **modelo próprio** de declaração e o que precisa constar: CNPJ, carimbo, carga horária, assinatura.
+2. Leve o modelo **já preenchido**, só para o responsável assinar.
+3. Se puder, leve também um **ofício da faculdade** apresentando você e o projeto. Isso abre portas em órgão público.
+4. Combine a assinatura **no próprio dia do mutirão**, antes de ir embora.
+
 ## Sugestão de abordagem
 1. **Comece pelo Descomplica/CATe Vila Prudente.** Ele é vizinho da estação e já tem estrutura. Se aceitarem, o mutirão pode acontecer lá.
 2. **Um ou dois lugares com computador** (CEU Vila Alpina, Bonsai) para um sábado.
@@ -52,7 +72,7 @@ Faculdades com NAF atendem MEI de graça em parceria com a Receita Federal. Apar
 4. **Voluntários**: ETEC (Administração), Senac e NAF.
 
 ### Mensagem curta para o primeiro contato
-> Olá! Sou [nome], do projeto de extensão [curso/faculdade]. Fizemos um guia gratuito, pelo celular, que ensina MEIs a se cadastrarem no Contrata+Brasil, a plataforma do governo federal que contrata pequenos serviços. Moro aqui no bairro e queria saber se vocês topam (1) divulgar o cartaz com QR code e/ou (2) receber um mutirão de cadastro num sábado. Levo o material e os voluntários. Link do guia: [urlGuia]
+> Olá! Sou [nome], do projeto de extensão [curso/faculdade]. Fizemos um guia gratuito, pelo celular, que ensina MEIs a se cadastrarem no Contrata+Brasil, a plataforma do governo federal que contrata pequenos serviços. Moro aqui no bairro e queria saber se vocês topam (1) divulgar o cartaz com QR code e/ou (2) receber um mutirão de cadastro num sábado. Levo o material e os voluntários. Como é um projeto de extensão, eu precisaria de uma declaração de comparecimento assinada pelo responsável do local (levo o modelo pronto). Seria possível? Link do guia: [urlGuia]
 
 ## Fontes
 - [Prefeitura SP: endereços dos CATe](https://prefeitura.sp.gov.br/w/noticia/servico-veja-os-enderecos-dos-centros-de-apoio-ao-trabalho-e-empreendedorismo)
