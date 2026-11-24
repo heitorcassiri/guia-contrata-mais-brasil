@@ -85,7 +85,7 @@ Em **Configurações**, deixe **desmarcado** "Coletar e-mails" (fica anônimo).
 Tire os prints **no celular**, com a sua conta, e salve com estes nomes na pasta `img/`:
 `passo-1.png`, `passo-2.png` … `passo-7.png` (o que cada passo mostra está no modo "Passo a passo", etapa 3).
 - **Apague ou cubra CPF, CNPJ, nome e telefone** antes de publicar.
-- Prefira imagens leves (até ~150 KB cada). Enquanto não houver print, aparece "PRINT DO PASSO X".
+- Prefira imagens leves (até ~150 KB cada). Enquanto o arquivo não existir, o espaço do print simplesmente não aparece; assim que você enviar com o nome certo, ele aparece sozinho.
 
 ## 5. Imprimir o cartaz
 

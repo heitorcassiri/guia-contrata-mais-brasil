@@ -325,9 +325,13 @@ function renderMsg(m, ctx){
   return null;
 }
 function renderPasso(m){
-  var fig = h('figure', {'class':'shot'});
-  var ph = function(){ fig.innerHTML = ''; fig.append(h('div', {'class':'ph', text: 'PRINT DO PASSO ' + m.n})); };
-  if (m.print){ var img = h('img', {src: m.print, alt: 'Tela do passo ' + m.n + ': ' + plano(m.titulo), loading:'lazy', decoding:'async'}); img.addEventListener('error', ph); fig.append(img); } else ph();
+  var fig = null;
+  if (m.print){
+    fig = h('figure', {'class':'shot'});
+    var img = h('img', {src: m.print, alt: 'Tela do passo ' + m.n + ': ' + plano(m.titulo), loading:'lazy', decoding:'async'});
+    img.addEventListener('error', function(){ fig.remove(); });
+    fig.append(img);
+  }
   return h('div', {'class':'card passo'},
     h('div', {'class':'passo-h'}, h('div', {'class':'num', text: m.n}), h('h4', {html: md(m.titulo)})),
     h('div', {'class':'row'}, h('span', {'class':'ic', 'aria-hidden':'true', text:'👆'}), h('div', null, h('small', {text:'O que tocar'}), h('div', {html: md(m.toque)}))),
