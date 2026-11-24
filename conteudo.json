@@ -1,0 +1,5164 @@
+{
+ "_leia": "Arquivo de conteúdo do guia. Edite só os textos entre aspas. Use **negrito** e [texto](link). Veja o README.md.",
+ "config": {
+  "dataConferencia": "24/11/2026",
+  "urlGuia": "https://heitorcassiri.github.io/guia-contrata-mais-brasil/",
+  "urlFormulario": "",
+  "whatsappInstituicao": "",
+  "nomeInstituicao": "",
+  "mensagemCompartilhar": "Você é MEI? O governo pode contratar o seu serviço pelo Contrata+Brasil. Este guia ensina o cadastro passo a passo:"
+ },
+ "textos": {
+  "tituloSite": "Guia do MEI · Contrata+Brasil",
+  "subtitulo": "Guia independente · projeto de extensão universitária",
+  "rodape": "Guia independente feito em projeto de extensão universitária. Informações conferidas em {data}. Sempre confirme no [site oficial](https://www.gov.br/contratamaisbrasil/pt-br).",
+  "modoConversa": "Conversa",
+  "modoPassos": "Passo a passo",
+  "placeholder": "Escreva aqui… ex.: sou pintor",
+  "ouvir": "Ouvir",
+  "parar": "Parar",
+  "ouvirEtapa": "Ouvir esta etapa",
+  "voltar": "Voltar",
+  "proximo": "Próximo",
+  "reiniciar": "Recomeçar conversa",
+  "falarPessoa": "Falar com a instituição",
+  "avisoMicrofone": "Para entender o que você fala, o navegador envia o áudio para o Google. Se preferir, escreva. Quer usar o microfone?",
+  "buscaPlaceholder": "Ex.: eletricista, bolo, unha…",
+  "buscaAceito": "Pode participar! ✅",
+  "buscaTalvez": "Talvez. Confira na lista oficial ⚠️",
+  "buscaNao": "Não encontrei ❌",
+  "buscaNaoTexto": "Não achei esse serviço nas listas oficiais. Tente outra palavra ou confira a lista.",
+  "buscaDicaOcupacao": "No cadastro do MEI, a ocupação aparece com a palavra \"independente\" no final. Confira se é a mesma do seu MEI.",
+  "formBotao": "Consegui me cadastrar! 🎉",
+  "formBotaoParei": "Parei no meio do caminho",
+  "formSemUrl": "O formulário ainda não foi configurado.",
+  "compartilhar": "Compartilhar no WhatsApp"
+ },
+ "links": {
+  "site": "https://www.gov.br/contratamaisbrasil/pt-br",
+  "plataforma": "https://contratamaisbrasil.sistema.gov.br/",
+  "tutorialCadastro": "https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/aprenda_usar/ComoseinscrevernoContratamaisBrasil.pdf/@@display-file/file",
+  "tutorialProposta": "https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/aprenda_usar/tutorial-como-apresentar-proposta-fornecedor-contrata-brasil.pdf/@@display-file/file",
+  "faq": "https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/perguntas-e-respostas",
+  "lista2025": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao/edital-de-credenciamento-03-2025-servicos/1-anexo-i-lista-de-servicos.pdf/@@display-file/file",
+  "lista2026": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao/edital-credenciamento-03-2026-eventos/2-0-anexo-i-lista-de-servicos.pdf/@@display-file/file",
+  "editais": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao",
+  "niveis": "https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/niveis-da-conta-govbr",
+  "criarConta": "https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br",
+  "queroSerMei": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei",
+  "atualizarMei": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei",
+  "ccmei": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei",
+  "pgmei": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao",
+  "parcelamento": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/parcelamento-especial-microempreendedor-individual-1/manual_parcelamento_mei.pdf",
+  "nfse": "https://www.nfse.gov.br/EmissorNacional",
+  "certFederal": "https://servicos.receitafederal.gov.br/servico/certidoes/",
+  "certFgts": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf",
+  "certTrab": "https://cndt-certidao.tst.jus.br/inicio.faces",
+  "portalServicos": "https://portaldeservicos.gestao.gov.br/",
+  "tetoMei": "https://www.gov.br/memp/pt-br/teto-do-mei",
+  "comunicadoLogin": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/comunicados/2026/no-04-26-instabilidade-do-sistema-de-gestao-de-acesso-sga"
+ },
+ "inicio": "inicio",
+ "etapas": [
+  {
+   "n": 0,
+   "titulo": "Boas-vindas",
+   "icone": "👋",
+   "nos": [
+    "inicio",
+    "tempo"
+   ]
+  },
+  {
+   "n": 1,
+   "titulo": "Meu serviço pode participar?",
+   "icone": "🔎",
+   "nos": [
+    "servico"
+   ]
+  },
+  {
+   "n": 2,
+   "titulo": "Antes de começar",
+   "icone": "✅",
+   "nos": [
+    "checklist",
+    "certidoes"
+   ]
+  },
+  {
+   "n": 3,
+   "titulo": "Passo a passo do cadastro",
+   "icone": "📝",
+   "nos": [
+    "cad1",
+    "cad2",
+    "cad3",
+    "cad4",
+    "cad5",
+    "cad6",
+    "cad7"
+   ]
+  },
+  {
+   "n": 4,
+   "titulo": "Receber e responder serviços",
+   "icone": "📨",
+   "nos": [
+    "op_alertas",
+    "op_ler",
+    "op_preco",
+    "op_enviar",
+    "op_editar"
+   ]
+  },
+  {
+   "n": 5,
+   "titulo": "Fui escolhido. E agora?",
+   "icone": "🏆",
+   "nos": [
+    "esc_docs",
+    "esc_servico",
+    "esc_pagamento",
+    "esc_limites"
+   ]
+  },
+  {
+   "n": 6,
+   "titulo": "Deu problema?",
+   "icone": "🆘",
+   "nos": [
+    "p_login",
+    "ajuda_senha",
+    "ajuda_nivel",
+    "p_inapto",
+    "ajuda_das",
+    "p_semop",
+    "p_naoaceito",
+    "p_atendimento"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Conclusão",
+   "icone": "🎉",
+   "nos": [
+    "final"
+   ]
+  }
+ ],
+ "nos": {
+  "inicio": {
+   "etapa": 0,
+   "mensagens": [
+    "Oi! 👋 Eu sou o **guia do Contrata+Brasil para MEI**.",
+    "O **Contrata+Brasil** é um site do Governo Federal. Nele, prefeituras, escolas e outros órgãos públicos contratam MEIs para **pequenos serviços**, como consertos, pintura e eventos.",
+    "Funciona assim: o órgão publica o serviço. Você manda o seu preço. No fim do prazo, o órgão escolhe a melhor proposta.",
+    {
+     "tipo": "aviso",
+     "nivel": "info",
+     "texto": "Este guia é um **projeto de extensão universitária**. Ele **não é site do governo**. Sempre confira as informações no site oficial."
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Vamos começar 👉",
+     "vai": "tempo"
+    },
+    {
+     "rotulo": "Abrir o site oficial ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br"
+    }
+   ],
+   "titulo": "O que é o Contrata+Brasil"
+  },
+  "tempo": {
+   "etapa": 0,
+   "mensagens": [
+    "⏱️ **Quanto tempo leva?**",
+    "Se você **já tem MEI** e conta gov.br **prata ou ouro**: o cadastro leva mais ou menos **30 minutos** (é uma estimativa nossa).",
+    "Se ainda precisa **abrir o MEI** ou **subir o nível da conta gov.br**, reserve **uma tarde**.",
+    {
+     "tipo": "aviso",
+     "nivel": "atencao",
+     "texto": "Se cadastrar **não garante** trabalho. Você só é contratado se surgir um serviço e o órgão escolher a sua proposta."
+    },
+    "Primeiro, vamos ver se o seu serviço pode participar."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Meu serviço pode participar?",
+     "vai": "servico"
+    }
+   ],
+   "titulo": "Em quanto tempo eu faço isso?"
+  },
+  "servico": {
+   "etapa": 1,
+   "mensagens": [
+    "Hoje existem **duas listas oficiais** de serviços para MEI:",
+    {
+     "tipo": "lista",
+     "itens": [
+      "🔧 **Manutenção e pequenos reparos** (Edital 03/2025)",
+      "🎉 **Eventos e ações institucionais** (Edital 03/2026): comida, beleza, costura, fotografia, som e mais"
+     ]
+    },
+    "Escreva o que você faz, **com as suas palavras**. Exemplos: eletricista, pintura, bolo, costura, unha.",
+    {
+     "tipo": "widget",
+     "nome": "busca"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo: o que preciso ter ✅",
+     "vai": "checklist"
+    },
+    {
+     "rotulo": "Lista oficial: reparos ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao/edital-de-credenciamento-03-2025-servicos/1-anexo-i-lista-de-servicos.pdf/@@display-file/file"
+    },
+    {
+     "rotulo": "Lista oficial: eventos ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao/edital-credenciamento-03-2026-eventos/2-0-anexo-i-lista-de-servicos.pdf/@@display-file/file"
+    }
+   ],
+   "titulo": "Meu serviço pode participar?"
+  },
+  "checklist": {
+   "etapa": 2,
+   "mensagens": [
+    "Antes de se cadastrar, confira se você tem tudo. **Marque o que já tem.** Fica salvo só no seu celular.",
+    {
+     "tipo": "widget",
+     "nome": "checklist"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Tudo certo! Ver o cadastro 👉",
+     "vai": "cad1"
+    },
+    {
+     "rotulo": "Conferir minhas certidões",
+     "vai": "certidoes"
+    }
+   ],
+   "titulo": "Antes de começar"
+  },
+  "ajuda_nivel": {
+   "etapa": 2,
+   "mensagens": [
+    "🥈 **Conta gov.br prata ou ouro**",
+    "A plataforma deixa entrar com qualquer nível. Mas você vai precisar de **prata ou ouro** para **abrir ou mudar o MEI** e para **emitir nota fiscal**. Por isso, vale subir agora.",
+    {
+     "tipo": "lista",
+     "itens": [
+      "Abra o **aplicativo gov.br** e toque em **\"Aumentar nível\"**, na tela de início.",
+      "**Prata:** reconhecimento facial (com a foto da sua CNH) **ou** validação pelo aplicativo de um banco credenciado.",
+      "**Ouro:** reconhecimento facial (com a foto do TSE, da Justiça Eleitoral) **ou** leitura do QR Code da nova Carteira de Identidade."
+     ]
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como aumentar o nível ↗",
+     "url": "https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/niveis-da-conta-govbr"
+    },
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Como subir o nível da conta gov.br"
+  },
+  "ajuda_mei": {
+   "etapa": 2,
+   "mensagens": [
+    "📄 **Ainda não tenho MEI**",
+    "Abrir MEI é **grátis**, no Portal do Empreendedor do governo. Você precisa de conta gov.br **prata ou ouro**.",
+    {
+     "tipo": "aviso",
+     "nivel": "perigo",
+     "texto": "**Cuidado** com sites e pessoas que cobram para abrir MEI. O caminho oficial não cobra nada."
+    },
+    "Na hora de abrir, escolha a **ocupação** que combina com o serviço que você quer oferecer."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Quero ser MEI (site oficial) ↗",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei"
+    },
+    {
+     "rotulo": "Ver se meu serviço participa",
+     "vai": "servico"
+    },
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Como abrir o MEI"
+  },
+  "ajuda_atividade": {
+   "etapa": 2,
+   "mensagens": [
+    "🔁 **Minha ocupação do MEI não combina**",
+    "O serviço que você oferece precisa ser compatível com a **ocupação** cadastrada no seu MEI.",
+    "Para mudar ou acrescentar ocupações, use a **Atualização cadastral** no Portal do Empreendedor. É grátis e precisa de conta **prata ou ouro**."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Atualização cadastral do MEI ↗",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/atualizacao-cadastral-de-mei"
+    },
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Como mudar a ocupação do MEI"
+  },
+  "ajuda_das": {
+   "etapa": 2,
+   "mensagens": [
+    "💸 **DAS em dia** (DAS é o boleto mensal do MEI)",
+    "DAS atrasado deixa pendência na **certidão federal**. Isso **pode travar a sua contratação**.",
+    {
+     "tipo": "lista",
+     "itens": [
+      "Emita as guias atrasadas no **PGMEI**, o site da Receita para o DAS.",
+      "Se forem muitas guias, dá para **parcelar** no Portal do Simples Nacional, no menu **\"Simei Serviços\" → \"Parcelamento\"**."
+     ]
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Emitir DAS no PGMEI ↗",
+     "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao"
+    },
+    {
+     "rotulo": "Manual do parcelamento ↗",
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/parcelamento-especial-microempreendedor-individual-1/manual_parcelamento_mei.pdf"
+    },
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Como pôr o DAS em dia"
+  },
+  "ajuda_whats": {
+   "etapa": 2,
+   "mensagens": [
+    "📱 **WhatsApp**",
+    "Os avisos de novos serviços chegam pelo **WhatsApp**.",
+    "No cadastro, confira se o campo **\"Telefone\"** tem o número que você usa no WhatsApp. Depois, **marque a autorização** para receber as mensagens."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Por que o WhatsApp é importante"
+  },
+  "ajuda_senha": {
+   "etapa": 2,
+   "mensagens": [
+    "🔑 **Senha do gov.br**",
+    "Teste antes: entre no aplicativo gov.br ou no site com seu CPF e senha.",
+    "Se esqueceu, use a opção de **recuperar a senha** na tela de entrada do gov.br. O aplicativo também ajuda."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Conta gov.br (site oficial) ↗",
+     "url": "https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br"
+    },
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Senha do gov.br"
+  },
+  "certidoes": {
+   "etapa": 2,
+   "mensagens": [
+    "📑 **Certidões**",
+    "Boa notícia: **você não precisa emitir nada**. Quando você for escolhido, o sistema confere tudo sozinho.",
+    "Mas vale conferir antes se está tudo certo. Assim você não leva susto:",
+    {
+     "tipo": "widget",
+     "nome": "certidoes"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Ver o cadastro 👉",
+     "vai": "cad1"
+    },
+    {
+     "rotulo": "Voltar à lista",
+     "vai": "checklist"
+    }
+   ],
+   "titulo": "Conferir minhas certidões"
+  },
+  "cad1": {
+   "etapa": 3,
+   "mensagens": [
+    "Agora, o cadastro. São **7 passos**. Faça com calma, um de cada vez. 💪",
+    {
+     "tipo": "passo",
+     "n": 1,
+     "titulo": "Abra o site do Contrata+Brasil",
+     "toque": "Abra **gov.br/contratamaisbrasil** e toque no **banner** (a imagem grande) da página inicial.",
+     "aparece": "A página com as oportunidades de serviço.",
+     "erro": "Entrar em site falso. O endereço certo sempre termina em **gov.br**.",
+     "print": "img/passo-1.png"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo passo 👉",
+     "vai": "cad2"
+    },
+    {
+     "rotulo": "Abrir o site oficial ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br"
+    }
+   ],
+   "titulo": "Passo 1"
+  },
+  "cad2": {
+   "etapa": 3,
+   "mensagens": [
+    {
+     "tipo": "passo",
+     "n": 2,
+     "titulo": "Entre com a sua conta gov.br",
+     "toque": "Toque em **\"Entrar com gov.br\"**. Na página inicial, o botão pode aparecer como **\"Entrar na plataforma\"**.",
+     "aparece": "A tela do gov.br. Digite seu **CPF** e a sua **senha**.",
+     "erro": "Não ter conta gov.br. Se for o seu caso, digite seu CPF e siga as etapas para criar a conta.",
+     "print": "img/passo-2.png"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo passo 👉",
+     "vai": "cad3"
+    },
+    {
+     "rotulo": "O login não funciona",
+     "vai": "p_login"
+    }
+   ],
+   "titulo": "Passo 2"
+  },
+  "cad3": {
+   "etapa": 3,
+   "mensagens": [
+    {
+     "tipo": "passo",
+     "n": 3,
+     "titulo": "Abra o menu",
+     "toque": "Toque no **menu** no canto **de cima, à esquerda**: são **três listras ☰** ao lado do nome \"Contrata+Brasil\".",
+     "aparece": "Uma lista de opções.",
+     "erro": "Procurar o menu do lado direito. Ele fica à **esquerda**.",
+     "print": "img/passo-3.png"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo passo 👉",
+     "vai": "cad4"
+    }
+   ],
+   "titulo": "Passo 3"
+  },
+  "cad4": {
+   "etapa": 3,
+   "mensagens": [
+    {
+     "tipo": "passo",
+     "n": 4,
+     "titulo": "Cadastre a sua empresa (o seu MEI)",
+     "toque": "Toque em **\"Minhas Empresas\"** e digite o **CNPJ** do seu MEI.",
+     "aparece": "Os dados da sua empresa **aparecem sozinhos**. O sistema busca tudo no Sicaf (o cadastro de fornecedores do governo). Se você ainda não tem Sicaf, a plataforma faz esse cadastro para você.",
+     "erro": "Usar um CNPJ que não é MEI. As linhas de serviço são **só para MEI**.",
+     "print": "img/passo-4.png"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo passo 👉",
+     "vai": "cad5"
+    }
+   ],
+   "titulo": "Passo 4"
+  },
+  "cad5": {
+   "etapa": 3,
+   "mensagens": [
+    {
+     "tipo": "passo",
+     "n": 5,
+     "titulo": "Confira o telefone e autorize o WhatsApp",
+     "toque": "No campo **\"Telefone\"**, confira se é o número que você usa no **WhatsApp**. Depois, **marque a autorização** para receber mensagens.",
+     "aparece": "A caixinha marcada.",
+     "erro": "Deixar um número antigo. Aí os avisos de serviço não chegam para você.",
+     "print": "img/passo-5.png"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo passo 👉",
+     "vai": "cad6"
+    }
+   ],
+   "titulo": "Passo 5"
+  },
+  "cad6": {
+   "etapa": 3,
+   "mensagens": [
+    {
+     "tipo": "passo",
+     "n": 6,
+     "titulo": "Escolha os seus serviços",
+     "toque": "No campo **\"Serviços\"**, toque na **setinha** do lado direito e escolha **todos** os serviços que você faz.",
+     "aparece": "Os serviços escolhidos aparecem no campo.",
+     "erro": "Escolher poucos serviços. Você só recebe avisos dos serviços cadastrados. Depois dá para acrescentar outros em **\"Minhas Empresas\"**.",
+     "print": "img/passo-6.png"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Próximo passo 👉",
+     "vai": "cad7"
+    }
+   ],
+   "titulo": "Passo 6"
+  },
+  "cad7": {
+   "etapa": 3,
+   "mensagens": [
+    {
+     "tipo": "passo",
+     "n": 7,
+     "titulo": "Finalize a inscrição",
+     "toque": "Toque em **\"Inscrever empresa\"**. Se aparecer algum termo de uso, leia e aceite.",
+     "aparece": "A confirmação de que a sua empresa está inscrita.",
+     "erro": "Sair da tela antes de tocar em \"Inscrever empresa\".",
+     "print": "img/passo-7.png"
+    },
+    "Pronto! 🎉 Você só precisa fazer isso **uma vez**."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como recebo os serviços? 👉",
+     "vai": "op_alertas"
+    },
+    {
+     "rotulo": "Tutorial oficial do cadastro (PDF) ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/aprenda_usar/ComoseinscrevernoContratamaisBrasil.pdf/@@display-file/file"
+    }
+   ],
+   "titulo": "Passo 7"
+  },
+  "op_alertas": {
+   "etapa": 4,
+   "mensagens": [
+    "🔔 **Como chegam os serviços**",
+    "Quando um órgão publica um serviço **na cidade do seu CNPJ** para os serviços que você cadastrou, você recebe um **aviso no WhatsApp**.",
+    "Você também pode **procurar sozinho**, em qualquer cidade do Brasil. Na página inicial, use os filtros **Estado**, **Cidade** e **\"Oportunidades abertas\"**.",
+    "Dica: crie o hábito de **entrar no site com frequência**."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como leio um serviço? 👉",
+     "vai": "op_ler"
+    }
+   ],
+   "titulo": "Como receber oportunidades"
+  },
+  "op_ler": {
+   "etapa": 4,
+   "mensagens": [
+    "🔎 **Antes de mandar preço, leia tudo**",
+    "Toque em **\"Ver mais\"** no serviço que interessa. Confira:",
+    {
+     "tipo": "lista",
+     "itens": [
+      "📅 o **prazo** para fazer o serviço",
+      "💳 a **forma** e o **prazo de pagamento**",
+      "⏳ até quando dá para mandar proposta",
+      "📍 o **local** e a **quantidade**"
+     ]
+    },
+    "Ficou com dúvida? No fim da página tem a caixinha **\"Dúvidas\"**. Escreva e toque em **\"Enviar\"**. Sua pergunta só aparece **depois que o órgão responder**.",
+    "Você também pode pedir para **visitar o local** antes (é a chamada vistoria)."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como monto o preço? 👉",
+     "vai": "op_preco"
+    }
+   ],
+   "titulo": "Ler a oportunidade"
+  },
+  "op_preco": {
+   "etapa": 4,
+   "mensagens": [
+    "🧮 **Como montar o seu preço**",
+    {
+     "tipo": "aviso",
+     "nivel": "perigo",
+     "texto": "**Não dá para cobrar a mais depois.** O seu preço precisa cobrir **TUDO**: material, transporte, ferramentas, EPI (equipamento de proteção, como luva e capacete), uniforme e o seu trabalho."
+    },
+    "Use a calculadora. Os números **não saem do seu celular**.",
+    {
+     "tipo": "widget",
+     "nome": "calculadora"
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como envio a proposta? 👉",
+     "vai": "op_enviar"
+    }
+   ],
+   "titulo": "Montar o preço"
+  },
+  "op_enviar": {
+   "etapa": 4,
+   "mensagens": [
+    "📨 **Enviar a proposta**",
+    {
+     "tipo": "lista",
+     "numerada": true,
+     "itens": [
+      "Na página do serviço, toque em **\"Fazer proposta\"**, no canto de cima, à direita.",
+      "Em **\"Selecione uma empresa\"**, escolha o seu **CNPJ**.",
+      "Coloque o **valor** total.",
+      "Informe em **quanto tempo** você termina o serviço.",
+      "Leia as **declarações** e marque **todas**.",
+      "Se pedirem documentos extras, anexe. Para o governo federal, não precisa.",
+      "Toque em **\"Enviar proposta\"**. Pronto!"
+     ]
+    },
+    {
+     "tipo": "aviso",
+     "nivel": "atencao",
+     "texto": "Nenhuma proposta pode passar de **R$ 13.098,41** (valor em nov/2026)."
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como mudo o meu preço? 👉",
+     "vai": "op_editar"
+    },
+    {
+     "rotulo": "Tutorial oficial da proposta (PDF) ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/aprenda_usar/tutorial-como-apresentar-proposta-fornecedor-contrata-brasil.pdf/@@display-file/file"
+    }
+   ],
+   "titulo": "Enviar a proposta"
+  },
+  "op_editar": {
+   "etapa": 4,
+   "mensagens": [
+    "✏️ **Mudar o preço ou acompanhar**",
+    "Dá para mudar o valor **enquanto o prazo estiver aberto**:",
+    {
+     "tipo": "lista",
+     "numerada": true,
+     "itens": [
+      "Toque nas **três listras ☰**, ao lado de \"Contrata+Brasil\".",
+      "Toque em **\"Minhas Propostas\"**.",
+      "Toque em **\"Ver mais\"** na proposta.",
+      "Toque no **lápis** ✏️, coloque o novo valor e marque as declarações.",
+      "Toque em **\"Editar proposta\"**."
+     ]
+    },
+    "Em \"Minhas Propostas\" você também vê a situação: **ativa** (ainda recebe propostas) ou **em processo de seleção** (o órgão está escolhendo).",
+    "O órgão escolhe a proposta **mais vantajosa**. Pode olhar o preço, o prazo e a qualificação. Quem é da cidade ou da região tem **preferência** se o preço for até **10% maior**."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Fui escolhido. E agora? 👉",
+     "vai": "esc_docs"
+    }
+   ],
+   "titulo": "Editar e acompanhar"
+  },
+  "esc_docs": {
+   "etapa": 5,
+   "mensagens": [
+    "🏆 **Fui escolhido!**",
+    "Você recebe um **aviso pelo sistema** e o órgão entra em contato. Daqui para a frente, tudo é **direto com o órgão**.",
+    "O sistema confere sozinho os seus documentos:",
+    {
+     "tipo": "lista",
+     "itens": [
+      "**CCMEI** (o certificado do MEI)",
+      "comprovante do **CNPJ**",
+      "**certidão federal** (Receita e PGFN)",
+      "**certidão do FGTS**",
+      "**certidão trabalhista** (CNDT)",
+      "certidão do estado ou da prefeitura, **só quando eles exigirem**"
+     ]
+    },
+    {
+     "tipo": "aviso",
+     "nivel": "atencao",
+     "texto": "**Prazos:** o órgão analisa em até **5 dias úteis**. Se pedir um ajuste, você tem **2 dias úteis**. Se o problema for imposto atrasado (como o DAS), você tem **5 dias úteis** para regularizar."
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Fazer o serviço e a nota 👉",
+     "vai": "esc_servico"
+    },
+    {
+     "rotulo": "Conferir minhas certidões",
+     "vai": "certidoes"
+    }
+   ],
+   "titulo": "Documentos e prazos"
+  },
+  "esc_servico": {
+   "etapa": 5,
+   "mensagens": [
+    "🛠️ **Fazer o serviço e emitir a nota**",
+    "A contratação pode ser **combinada de forma simples**, até de forma verbal. Faça o serviço do jeito que estava descrito.",
+    "Terminou? Emita a **nota fiscal de serviço** (NFS-e) e envie para o órgão.",
+    "O MEI emite a nota no **Emissor Nacional**, pelo site ou pelo aplicativo **NFS-e Mobile**. Entre com a conta gov.br **prata ou ouro**."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Como eu recebo? 👉",
+     "vai": "esc_pagamento"
+    },
+    {
+     "rotulo": "Emissor Nacional NFS-e ↗",
+     "url": "https://www.nfse.gov.br/EmissorNacional"
+    }
+   ],
+   "titulo": "Serviço e nota fiscal"
+  },
+  "esc_pagamento": {
+   "etapa": 5,
+   "mensagens": [
+    "💰 **Receber o pagamento**",
+    {
+     "tipo": "lista",
+     "itens": [
+      "O prazo e a forma de pagamento estão **na descrição do serviço**.",
+      "O pagamento é feito **de preferência por Pix ou cartão**. O órgão também pode pagar por depósito na sua conta (ordem bancária).",
+      "O prazo **não pode passar de 30 dias** depois do serviço feito.",
+      "Pode haver **desconto de imposto** no pagamento, se a lei exigir."
+     ]
+    },
+    "Depois, o órgão marca na plataforma que pagou. Se você **não concordar**, tem **5 dias úteis** para avisar."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Limites de valor 👉",
+     "vai": "esc_limites"
+    }
+   ],
+   "titulo": "Pagamento"
+  },
+  "esc_limites": {
+   "etapa": 5,
+   "mensagens": [
+    "📏 **Limites de valor**",
+    {
+     "tipo": "lista",
+     "itens": [
+      "Cada proposta: até **R$ 13.098,41** (valor em nov/2026, pode ser reajustado).",
+      "O MEI pode faturar até **R$ 81 mil por ano**, somando **todos** os seus clientes (R$ 6.750 por mês de atividade)."
+     ]
+    },
+    "Se passar do limite do MEI, você precisa avisar a Receita e pode deixar de ser MEI. Fique de olho!",
+    {
+     "tipo": "aviso",
+     "nivel": "info",
+     "texto": "Existe um projeto de lei para aumentar o limite do MEI, mas ele **ainda não foi aprovado**."
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Terminei! 🎉",
+     "vai": "final"
+    },
+    {
+     "rotulo": "Deu problema?",
+     "vai": "problemas"
+    },
+    {
+     "rotulo": "Teto do MEI (site oficial) ↗",
+     "url": "https://www.gov.br/memp/pt-br/teto-do-mei"
+    }
+   ],
+   "titulo": "Limites"
+  },
+  "problemas": {
+   "etapa": 6,
+   "mensagens": [
+    "🆘 **Deu problema?** Escolha o que aconteceu:"
+   ],
+   "botoes": [
+    {
+     "rotulo": "Esqueci a senha do gov.br",
+     "vai": "ajuda_senha"
+    },
+    {
+     "rotulo": "Minha conta é bronze",
+     "vai": "ajuda_nivel"
+    },
+    {
+     "rotulo": "O login não funciona",
+     "vai": "p_login"
+    },
+    {
+     "rotulo": "Meu CNPJ está inapto ou baixado",
+     "vai": "p_inapto"
+    },
+    {
+     "rotulo": "Meu DAS está atrasado",
+     "vai": "ajuda_das"
+    },
+    {
+     "rotulo": "Não aparece serviço na minha cidade",
+     "vai": "p_semop"
+    },
+    {
+     "rotulo": "Meu serviço não está na lista",
+     "vai": "p_naoaceito"
+    },
+    {
+     "rotulo": "Falar com o atendimento oficial",
+     "vai": "p_atendimento"
+    }
+   ],
+   "titulo": "Deu problema?"
+  },
+  "p_login": {
+   "etapa": 6,
+   "mensagens": [
+    "🔐 **O login não funciona**",
+    "Desde julho de 2026, o site oficial avisa que o sistema de login (SGA) está **instável**, com períodos fora do ar.",
+    "O que fazer: **espere um pouco e tente de novo**, de preferência em outro horário. Se continuar, fale com o atendimento oficial."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Ver o aviso oficial ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/comunicados/2026/no-04-26-instabilidade-do-sistema-de-gestao-de-acesso-sga"
+    },
+    {
+     "rotulo": "Atendimento oficial",
+     "vai": "p_atendimento"
+    },
+    {
+     "rotulo": "Outros problemas",
+     "vai": "problemas"
+    }
+   ],
+   "titulo": "O login não funciona"
+  },
+  "p_inapto": {
+   "etapa": 6,
+   "mensagens": [
+    "⛔ **CNPJ inapto ou baixado**",
+    "Com o CNPJ **inapto** ou **baixado** (encerrado), você **não consegue ser contratado**.",
+    {
+     "tipo": "lista",
+     "itens": [
+      "**Inapto:** existe alguma pendência com a Receita. Confira a sua situação e regularize antes de mandar propostas.",
+      "**Baixado:** o MEI foi encerrado. Para participar, você precisa abrir um MEI novo."
+     ]
+    },
+    "Se precisar de ajuda presencial, procure o **Sebrae** ou o atendimento ao empreendedor da sua prefeitura."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Ver certidão federal ↗",
+     "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+    },
+    {
+     "rotulo": "Quero ser MEI ↗",
+     "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei"
+    },
+    {
+     "rotulo": "Outros problemas",
+     "vai": "problemas"
+    }
+   ],
+   "titulo": "CNPJ inapto ou baixado"
+  },
+  "p_semop": {
+   "etapa": 6,
+   "mensagens": [
+    "🏙️ **Não aparece serviço na minha cidade**",
+    "Os serviços só aparecem quando um órgão **da sua cidade** entra na plataforma e publica uma necessidade. Isso **pode demorar**.",
+    {
+     "tipo": "lista",
+     "itens": [
+      "Procure também em **cidades vizinhas**. Você pode mandar proposta para qualquer cidade.",
+      "Confira se cadastrou **todos** os seus serviços, em **\"Minhas Empresas\"**.",
+      "Na página inicial da plataforma tem a opção **\"Consulte se o seu órgão aderiu\"**."
+     ]
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Abrir a plataforma ↗",
+     "url": "https://contratamaisbrasil.sistema.gov.br/"
+    },
+    {
+     "rotulo": "Outros problemas",
+     "vai": "problemas"
+    }
+   ],
+   "titulo": "Sem serviço na minha cidade"
+  },
+  "p_naoaceito": {
+   "etapa": 6,
+   "mensagens": [
+    "📋 **Meu serviço não está na lista**",
+    "Hoje só dá para participar com as ocupações das **duas listas oficiais**. Por exemplo, **faxina e diarista não aparecem** nessas listas.",
+    "O governo já ampliou as listas outras vezes e diz que **deve abrir novas linhas**. Acompanhe o site oficial.",
+    "Se você faz mais de um tipo de serviço, veja se algum deles está na lista."
+   ],
+   "botoes": [
+    {
+     "rotulo": "Procurar outro serviço",
+     "vai": "servico"
+    },
+    {
+     "rotulo": "Editais e listas oficiais ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao"
+    },
+    {
+     "rotulo": "Outros problemas",
+     "vai": "problemas"
+    }
+   ],
+   "titulo": "Meu serviço não está na lista"
+  },
+  "p_atendimento": {
+   "etapa": 6,
+   "mensagens": [
+    "☎️ **Atendimento oficial**",
+    {
+     "tipo": "lista",
+     "itens": [
+      "**Telefone:** 0800 978 9001 (ligação grátis), de segunda a sexta, das 8h às 18h. É a Central de Atendimento do Ministério da Gestão (MGI).",
+      "**Pela internet:** Portal de Serviços do MGI.",
+      "**Dúvida sobre um serviço publicado:** use a caixinha **\"Dúvidas\"** na página do serviço."
+     ]
+    }
+   ],
+   "botoes": [
+    {
+     "rotulo": "Ligar 0800 978 9001 📞",
+     "url": "tel:08009789001"
+    },
+    {
+     "rotulo": "Portal de Serviços ↗",
+     "url": "https://portaldeservicos.gestao.gov.br/"
+    },
+    {
+     "rotulo": "Perguntas e respostas oficiais ↗",
+     "url": "https://www.gov.br/contratamaisbrasil/pt-br/area-do-fornecedor/perguntas-e-respostas"
+    }
+   ],
+   "titulo": "Atendimento oficial"
+  },
+  "final": {
+   "etapa": 7,
+   "mensagens": [
+    "🎉 **Você chegou ao fim do guia!**",
+    "Conseguiu se cadastrar? Conte para a gente. São só **4 perguntas** e você não precisa se identificar. Isso ajuda o nosso projeto.",
+    {
+     "tipo": "widget",
+     "nome": "final"
+    },
+    "Boa sorte! Lembre-se: confira sempre o site oficial. 💪"
+   ],
+   "botoes": [
+    {
+     "rotulo": "Voltar ao começo",
+     "vai": "inicio"
+    },
+    {
+     "rotulo": "Deu problema?",
+     "vai": "problemas"
+    }
+   ],
+   "titulo": "Conclusão"
+  },
+  "menu": {
+   "etapa": -1,
+   "mensagens": [
+    "Sobre o que você quer falar? 👇"
+   ],
+   "botoes": [
+    {
+     "rotulo": "O que é o Contrata+Brasil",
+     "vai": "inicio"
+    },
+    {
+     "rotulo": "Meu serviço pode participar?",
+     "vai": "servico"
+    },
+    {
+     "rotulo": "O que preciso ter",
+     "vai": "checklist"
+    },
+    {
+     "rotulo": "Passo a passo do cadastro",
+     "vai": "cad1"
+    },
+    {
+     "rotulo": "Como mandar proposta",
+     "vai": "op_alertas"
+    },
+    {
+     "rotulo": "Fui escolhido",
+     "vai": "esc_docs"
+    },
+    {
+     "rotulo": "Deu problema?",
+     "vai": "problemas"
+    },
+    {
+     "rotulo": "Terminei 🎉",
+     "vai": "final"
+    }
+   ]
+  },
+  "naoentendi": {
+   "etapa": -1,
+   "mensagens": [
+    "Hmm, não entendi bem. 🤔",
+    "Tente escrever de outro jeito, ou toque numa opção:"
+   ],
+   "botoes": [
+    {
+     "rotulo": "Meu serviço pode participar?",
+     "vai": "servico"
+    },
+    {
+     "rotulo": "Passo a passo do cadastro",
+     "vai": "cad1"
+    },
+    {
+     "rotulo": "Deu problema?",
+     "vai": "problemas"
+    },
+    {
+     "rotulo": "Ver todos os assuntos",
+     "vai": "menu"
+    }
+   ]
+  }
+ },
+ "checklist": [
+  {
+   "id": "nivel",
+   "texto": "Tenho conta gov.br nível **prata ou ouro**",
+   "ajuda": "ajuda_nivel",
+   "rotuloAjuda": "Como subir o nível"
+  },
+  {
+   "id": "mei",
+   "texto": "Tenho **CNPJ MEI ativo**",
+   "ajuda": "ajuda_mei",
+   "rotuloAjuda": "Quero ser MEI"
+  },
+  {
+   "id": "ativ",
+   "texto": "A ocupação do meu MEI **combina** com o serviço que quero oferecer",
+   "ajuda": "ajuda_atividade",
+   "rotuloAjuda": "Como mudar a ocupação"
+  },
+  {
+   "id": "das",
+   "texto": "Meu **DAS** (boleto mensal do MEI) está em dia",
+   "ajuda": "ajuda_das",
+   "rotuloAjuda": "Como pôr em dia"
+  },
+  {
+   "id": "whats",
+   "texto": "Meu número de celular tem **WhatsApp** e eu uso esse número",
+   "ajuda": "ajuda_whats",
+   "rotuloAjuda": "Por que isso importa"
+  },
+  {
+   "id": "senha",
+   "texto": "Sei a minha **senha do gov.br**",
+   "ajuda": "ajuda_senha",
+   "rotuloAjuda": "Esqueci a senha"
+  }
+ ],
+ "calculadora": {
+  "campos": [
+   {
+    "id": "material",
+    "rotulo": "Material",
+    "dica": "tinta, fio, cano, ingredientes..."
+   },
+   {
+    "id": "transporte",
+    "rotulo": "Transporte",
+    "dica": "ônibus, combustível, frete (ida e volta, todos os dias)"
+   },
+   {
+    "id": "equip",
+    "rotulo": "Ferramentas e equipamentos",
+    "dica": "aluguel, desgaste, energia"
+   },
+   {
+    "id": "epi",
+    "rotulo": "EPI e uniforme",
+    "dica": "luva, óculos, capacete, bota"
+   },
+   {
+    "id": "mao",
+    "rotulo": "O seu trabalho (mão de obra)",
+    "dica": "quanto vale o seu tempo; se tiver ajudante, inclua também"
+   }
+  ],
+  "margens": [
+   0,
+   10,
+   20
+  ],
+  "margemPadrao": 10,
+  "rotuloMargem": "Reserva para imprevistos",
+  "limite": 13098.41,
+  "avisoLimite": "Passou de R$ 13.098,41. Nenhuma proposta pode ser maior que isso.",
+  "aviso": "Não dá para cobrar a mais depois. Confira se não esqueceu nada."
+ },
+ "certidoes": [
+  {
+   "rotulo": "Certidão federal (Receita e PGFN)",
+   "url": "https://servicos.receitafederal.gov.br/servico/certidoes/",
+   "explica": "mostra se você tem imposto federal atrasado, como o DAS"
+  },
+  {
+   "rotulo": "Certidão do FGTS (Caixa)",
+   "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf",
+   "explica": "regularidade com o FGTS"
+  },
+  {
+   "rotulo": "Certidão trabalhista (CNDT, do TST)",
+   "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
+   "explica": "mostra se há dívida trabalhista"
+  },
+  {
+   "rotulo": "CCMEI (certificado do MEI)",
+   "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei",
+   "explica": "o \"documento\" do seu MEI"
+  }
+ ],
+ "intencoes": [
+  {
+   "vai": "inicio",
+   "palavras": [
+    "o que e",
+    "contrata",
+    "como funciona",
+    "oi",
+    "ola",
+    "bom dia",
+    "boa tarde",
+    "boa noite"
+   ]
+  },
+  {
+   "vai": "tempo",
+   "palavras": [
+    "quanto tempo",
+    "demora",
+    "rapido"
+   ]
+  },
+  {
+   "vai": "servico",
+   "palavras": [
+    "posso participar",
+    "meu servico",
+    "lista",
+    "atividade",
+    "ocupacao aceita",
+    "cnae"
+   ]
+  },
+  {
+   "vai": "checklist",
+   "palavras": [
+    "preciso ter",
+    "requisito",
+    "antes de comecar",
+    "documento",
+    "checklist"
+   ]
+  },
+  {
+   "vai": "ajuda_nivel",
+   "palavras": [
+    "bronze",
+    "prata",
+    "ouro",
+    "nivel",
+    "selo",
+    "reconhecimento facial"
+   ]
+  },
+  {
+   "vai": "ajuda_mei",
+   "palavras": [
+    "abrir mei",
+    "nao tenho mei",
+    "ser mei",
+    "formalizar",
+    "nao tenho cnpj"
+   ]
+  },
+  {
+   "vai": "ajuda_atividade",
+   "palavras": [
+    "mudar ocupacao",
+    "trocar atividade",
+    "alterar mei",
+    "mudar atividade",
+    "acrescentar ocupacao"
+   ]
+  },
+  {
+   "vai": "ajuda_das",
+   "palavras": [
+    "das",
+    "boleto",
+    "atrasado",
+    "parcelar",
+    "parcelamento",
+    "pgmei",
+    "imposto"
+   ]
+  },
+  {
+   "vai": "ajuda_whats",
+   "palavras": [
+    "whatsapp",
+    "zap",
+    "wpp",
+    "mensagem",
+    "aviso",
+    "notificacao"
+   ]
+  },
+  {
+   "vai": "ajuda_senha",
+   "palavras": [
+    "senha",
+    "esqueci"
+   ]
+  },
+  {
+   "vai": "certidoes",
+   "palavras": [
+    "certidao",
+    "certidoes",
+    "fgts",
+    "cndt",
+    "trabalhista",
+    "ccmei",
+    "sicaf"
+   ]
+  },
+  {
+   "vai": "cad1",
+   "palavras": [
+    "cadastro",
+    "cadastrar",
+    "inscrever",
+    "inscricao",
+    "registrar",
+    "passo a passo"
+   ]
+  },
+  {
+   "vai": "p_login",
+   "palavras": [
+    "login",
+    "nao entra",
+    "nao consigo entrar",
+    "erro",
+    "fora do ar",
+    "instavel",
+    "travou"
+   ]
+  },
+  {
+   "vai": "op_alertas",
+   "palavras": [
+    "oportunidade",
+    "oportunidades",
+    "como acho",
+    "procurar servico",
+    "filtro"
+   ]
+  },
+  {
+   "vai": "op_preco",
+   "palavras": [
+    "preco",
+    "quanto cobrar",
+    "calcular",
+    "calculadora",
+    "valor",
+    "orcamento"
+   ]
+  },
+  {
+   "vai": "op_enviar",
+   "palavras": [
+    "proposta",
+    "enviar",
+    "mandar proposta",
+    "fazer proposta"
+   ]
+  },
+  {
+   "vai": "op_editar",
+   "palavras": [
+    "editar",
+    "mudar preco",
+    "alterar proposta",
+    "minhas propostas",
+    "acompanhar"
+   ]
+  },
+  {
+   "vai": "esc_docs",
+   "palavras": [
+    "fui escolhido",
+    "ganhei",
+    "selecionado",
+    "contratado",
+    "e agora"
+   ]
+  },
+  {
+   "vai": "esc_servico",
+   "palavras": [
+    "nota",
+    "nota fiscal",
+    "nfse",
+    "nfs-e",
+    "emitir nota"
+   ]
+  },
+  {
+   "vai": "esc_pagamento",
+   "palavras": [
+    "pagamento",
+    "receber",
+    "pix",
+    "quando recebo",
+    "pagar",
+    "dinheiro"
+   ]
+  },
+  {
+   "vai": "esc_limites",
+   "palavras": [
+    "limite",
+    "teto",
+    "maximo",
+    "81 mil",
+    "faturamento"
+   ]
+  },
+  {
+   "vai": "p_inapto",
+   "palavras": [
+    "inapto",
+    "baixado",
+    "cancelado",
+    "cnpj irregular"
+   ]
+  },
+  {
+   "vai": "p_semop",
+   "palavras": [
+    "nao aparece",
+    "nenhuma oportunidade",
+    "minha cidade",
+    "sem servico",
+    "nao tem servico"
+   ]
+  },
+  {
+   "vai": "p_atendimento",
+   "palavras": [
+    "atendimento",
+    "telefone",
+    "ligar",
+    "0800",
+    "suporte",
+    "contato"
+   ]
+  },
+  {
+   "vai": "problemas",
+   "palavras": [
+    "problema",
+    "ajuda",
+    "socorro",
+    "deu errado"
+   ]
+  },
+  {
+   "vai": "final",
+   "palavras": [
+    "consegui",
+    "terminei",
+    "pronto",
+    "formulario",
+    "compartilhar"
+   ]
+  },
+  {
+   "vai": "menu",
+   "palavras": [
+    "menu",
+    "assuntos",
+    "opcoes",
+    "inicio"
+   ]
+  }
+ ],
+ "apelidos": [
+  {
+   "palavras": [
+    "eletricista",
+    "eletrica",
+    "eletrico",
+    "tomada",
+    "fiacao",
+    "luz",
+    "chuveiro"
+   ],
+   "ocupacoes": [
+    "Eletricista"
+   ]
+  },
+  {
+   "palavras": [
+    "encanador",
+    "encanamento",
+    "vazamento",
+    "hidraulica",
+    "hidraulico",
+    "cano",
+    "torneira",
+    "privada",
+    "descarga"
+   ],
+   "ocupacoes": [
+    "Encanador",
+    "Bombeiro(a) hidráulico"
+   ]
+  },
+  {
+   "palavras": [
+    "pintor",
+    "pintura",
+    "pintar",
+    "tinta",
+    "parede"
+   ],
+   "ocupacoes": [
+    "Pintor(a) de parede",
+    "Pintor(a) de automóveis",
+    "Cartazista"
+   ]
+  },
+  {
+   "palavras": [
+    "pedreiro",
+    "obra",
+    "reforma",
+    "construcao",
+    "alvenaria",
+    "tijolo",
+    "reboco",
+    "muro"
+   ],
+   "ocupacoes": [
+    "Pedreiro"
+   ]
+  },
+  {
+   "palavras": [
+    "azulejo",
+    "azulejista",
+    "piso",
+    "porcelanato",
+    "revestimento",
+    "ceramica"
+   ],
+   "ocupacoes": [
+    "Azulejista",
+    "Colocador(a) de revestimentos",
+    "Pastilheiro"
+   ]
+  },
+  {
+   "palavras": [
+    "gesso",
+    "gesseiro",
+    "drywall",
+    "forro"
+   ],
+   "ocupacoes": [
+    "Gesseiro",
+    "Artesão(ã) em gesso"
+   ]
+  },
+  {
+   "palavras": [
+    "telhado",
+    "telha",
+    "goteira",
+    "calha"
+   ],
+   "ocupacoes": [
+    "Telhador",
+    "Calheiro"
+   ]
+  },
+  {
+   "palavras": [
+    "jardim",
+    "jardineiro",
+    "jardinagem",
+    "grama",
+    "rocada",
+    "rocar",
+    "paisagismo",
+    "planta"
+   ],
+   "ocupacoes": [
+    "Jardineiro",
+    "Viveirista"
+   ]
+  },
+  {
+   "palavras": [
+    "poda",
+    "podar",
+    "arvore"
+   ],
+   "ocupacoes": [
+    "Jardineiro",
+    "Prestador(a) de serviços de poda"
+   ]
+  },
+  {
+   "palavras": [
+    "marceneiro",
+    "marcenaria",
+    "movel",
+    "moveis",
+    "armario"
+   ],
+   "ocupacoes": [
+    "Marceneiro",
+    "Montador(a) de móveis",
+    "Reparador(a) de móveis"
+   ]
+  },
+  {
+   "palavras": [
+    "carpinteiro",
+    "carpintaria",
+    "porta",
+    "janela",
+    "madeira"
+   ],
+   "ocupacoes": [
+    "Carpinteiro"
+   ]
+  },
+  {
+   "palavras": [
+    "montador",
+    "montagem"
+   ],
+   "ocupacoes": [
+    "Montador(a) de móveis"
+   ]
+  },
+  {
+   "palavras": [
+    "serralheiro",
+    "serralheria",
+    "portao",
+    "grade",
+    "solda",
+    "soldador"
+   ],
+   "ocupacoes": [
+    "Serralheiro",
+    "Soldador"
+   ]
+  },
+  {
+   "palavras": [
+    "vidro",
+    "vidraceiro",
+    "vidracaria",
+    "box"
+   ],
+   "ocupacoes": [
+    "Vidraceiro"
+   ]
+  },
+  {
+   "palavras": [
+    "chaveiro",
+    "chave",
+    "fechadura"
+   ],
+   "ocupacoes": [
+    "Chaveiro"
+   ]
+  },
+  {
+   "palavras": [
+    "ar condicionado",
+    "arcondicionado",
+    "refrigeracao",
+    "climatizacao",
+    "geladeira"
+   ],
+   "ocupacoes": [
+    "ar condicionado",
+    "refrigeração"
+   ]
+  },
+  {
+   "palavras": [
+    "eletrodomestico",
+    "maquina de lavar",
+    "fogao",
+    "microondas"
+   ],
+   "ocupacoes": [
+    "eletrodomésticos"
+   ]
+  },
+  {
+   "palavras": [
+    "computador",
+    "informatica",
+    "notebook",
+    "rede"
+   ],
+   "ocupacoes": [
+    "computador",
+    "Instalador(a) de rede de computadores",
+    "Instrutor(a) de informática"
+   ]
+  },
+  {
+   "palavras": [
+    "celular",
+    "telefone"
+   ],
+   "ocupacoes": [
+    "telefonia"
+   ]
+  },
+  {
+   "palavras": [
+    "mecanico",
+    "carro",
+    "automovel",
+    "oficina",
+    "moto"
+   ],
+   "ocupacoes": [
+    "Mecânico"
+   ]
+  },
+  {
+   "palavras": [
+    "borracheiro",
+    "pneu"
+   ],
+   "ocupacoes": [
+    "Borracheiro"
+   ]
+  },
+  {
+   "palavras": [
+    "lava rapido",
+    "lavar carro",
+    "lavagem"
+   ],
+   "ocupacoes": [
+    "Lavador(a) e polidor de carro",
+    "Lavador(a) de estofado"
+   ]
+  },
+  {
+   "palavras": [
+    "sofa",
+    "estofado",
+    "estofador",
+    "tapecaria"
+   ],
+   "ocupacoes": [
+    "Estofador",
+    "Lavador(a) de estofado",
+    "tapeçaria"
+   ]
+  },
+  {
+   "palavras": [
+    "piscina",
+    "piscineiro"
+   ],
+   "ocupacoes": [
+    "Piscineiro"
+   ]
+  },
+  {
+   "palavras": [
+    "fossa"
+   ],
+   "ocupacoes": [
+    "Fosseiro"
+   ]
+  },
+  {
+   "palavras": [
+    "entulho",
+    "carroceiro",
+    "frete",
+    "carreto",
+    "mudanca"
+   ],
+   "ocupacoes": [
+    "Carroceiro",
+    "Carregador"
+   ]
+  },
+  {
+   "palavras": [
+    "costura",
+    "costureira",
+    "costureiro",
+    "roupa",
+    "ajuste",
+    "barra",
+    "conserto de roupa"
+   ],
+   "ocupacoes": [
+    "Costureiro",
+    "Alfaiate",
+    "Reparador(a) de artigos e acessórios do vestuário"
+   ]
+  },
+  {
+   "palavras": [
+    "bordado",
+    "bordadeira"
+   ],
+   "ocupacoes": [
+    "Bordadeiro"
+   ]
+  },
+  {
+   "palavras": [
+    "croche",
+    "trico"
+   ],
+   "ocupacoes": [
+    "Crocheteiro",
+    "Tricoteiro"
+   ]
+  },
+  {
+   "palavras": [
+    "bolo",
+    "bolos",
+    "confeiteira",
+    "confeiteiro",
+    "confeitaria",
+    "torta"
+   ],
+   "ocupacoes": [
+    "Confeiteiro"
+   ]
+  },
+  {
+   "palavras": [
+    "doce",
+    "doces",
+    "brigadeiro",
+    "docinho"
+   ],
+   "ocupacoes": [
+    "Doceiro",
+    "Confeiteiro"
+   ]
+  },
+  {
+   "palavras": [
+    "salgado",
+    "salgados",
+    "salgadeira",
+    "coxinha",
+    "esfiha",
+    "empada"
+   ],
+   "ocupacoes": [
+    "Salgadeiro"
+   ]
+  },
+  {
+   "palavras": [
+    "comida",
+    "marmita",
+    "marmitex",
+    "quentinha",
+    "refeicao",
+    "almoco",
+    "cozinheira",
+    "cozinheiro"
+   ],
+   "ocupacoes": [
+    "Marmiteiro",
+    "Cozinheiro(a) que fornece refeições",
+    "Fabricante de alimentos prontos congelados"
+   ]
+  },
+  {
+   "palavras": [
+    "buffet",
+    "bufe",
+    "churrasco",
+    "churrasqueiro",
+    "pizza"
+   ],
+   "ocupacoes": [
+    "Churrasqueiro",
+    "Pizzaiolo"
+   ]
+  },
+  {
+   "palavras": [
+    "pao",
+    "padeiro",
+    "padaria",
+    "biscoito",
+    "bolacha"
+   ],
+   "ocupacoes": [
+    "Padeiro",
+    "Bolacheiro",
+    "pão de queijo"
+   ]
+  },
+  {
+   "palavras": [
+    "pipoca",
+    "sorvete",
+    "ambulante"
+   ],
+   "ocupacoes": [
+    "Pipoqueiro",
+    "Sorveteiro",
+    "Quitandeiro",
+    "Churrasqueiro(a) ambulante"
+   ]
+  },
+  {
+   "palavras": [
+    "cabelo",
+    "cabeleireira",
+    "cabeleireiro",
+    "salao",
+    "escova",
+    "corte"
+   ],
+   "ocupacoes": [
+    "Cabeleireiro"
+   ]
+  },
+  {
+   "palavras": [
+    "barba",
+    "barbeiro",
+    "barbearia"
+   ],
+   "ocupacoes": [
+    "Barbeiro"
+   ]
+  },
+  {
+   "palavras": [
+    "unha",
+    "unhas",
+    "manicure",
+    "pedicure"
+   ],
+   "ocupacoes": [
+    "Manicure"
+   ]
+  },
+  {
+   "palavras": [
+    "maquiagem",
+    "maquiadora",
+    "make"
+   ],
+   "ocupacoes": [
+    "Maquiador"
+   ]
+  },
+  {
+   "palavras": [
+    "estetica",
+    "esteticista",
+    "depilacao",
+    "sobrancelha"
+   ],
+   "ocupacoes": [
+    "Esteticista",
+    "Depilador"
+   ]
+  },
+  {
+   "palavras": [
+    "cuidadora",
+    "cuidador",
+    "idoso"
+   ],
+   "ocupacoes": [
+    "Cuidador(a) de idosos"
+   ]
+  },
+  {
+   "palavras": [
+    "festa",
+    "festas",
+    "evento",
+    "eventos",
+    "aniversario"
+   ],
+   "ocupacoes": [
+    "Animador(a) de festas",
+    "Promotor(a) de eventos",
+    "Locador(a) de móveis e utensílios, inclusive para festas",
+    "Proprietário(a) de casas de festas"
+   ]
+  },
+  {
+   "palavras": [
+    "decoracao",
+    "decoradora"
+   ],
+   "ocupacoes": [
+    "Locador(a) de móveis e utensílios, inclusive para festas",
+    "Promotor(a) de eventos"
+   ]
+  },
+  {
+   "palavras": [
+    "foto",
+    "fotografo",
+    "fotografa",
+    "fotografia"
+   ],
+   "ocupacoes": [
+    "Fotógrafo"
+   ]
+  },
+  {
+   "palavras": [
+    "video",
+    "filmagem",
+    "filmar"
+   ],
+   "ocupacoes": [
+    "Filmador",
+    "Editor(a) de vídeo"
+   ]
+  },
+  {
+   "palavras": [
+    "dj",
+    "som",
+    "sonorizacao",
+    "iluminacao"
+   ],
+   "ocupacoes": [
+    "Disc jockey",
+    "Técnico(a) de sonorização"
+   ]
+  },
+  {
+   "palavras": [
+    "musica",
+    "musico",
+    "cantor",
+    "cantora",
+    "banda"
+   ],
+   "ocupacoes": [
+    "Cantor(a)/músico",
+    "Instrutor(a) de música"
+   ]
+  },
+  {
+   "palavras": [
+    "professor",
+    "professora",
+    "aula",
+    "curso",
+    "instrutor"
+   ],
+   "ocupacoes": [
+    "Instrutor(a)"
+   ]
+  },
+  {
+   "palavras": [
+    "artesanato",
+    "artesa",
+    "artesao"
+   ],
+   "ocupacoes": [
+    "Artesão"
+   ]
+  },
+  {
+   "palavras": [
+    "cachorro",
+    "pet",
+    "banho e tosa",
+    "tosa",
+    "animal"
+   ],
+   "ocupacoes": [
+    "Banhista de animais",
+    "Tosador",
+    "Esteticista de animais",
+    "Adestrador"
+   ]
+  },
+  {
+   "palavras": [
+    "lavanderia",
+    "lavadeira",
+    "passar roupa",
+    "passadeira"
+   ],
+   "ocupacoes": [
+    "Lavadeiro"
+   ]
+  },
+  {
+   "palavras": [
+    "xerox",
+    "copia",
+    "impressao",
+    "plastificacao",
+    "encadernacao"
+   ],
+   "ocupacoes": [
+    "Fotocopiador",
+    "Encadernador",
+    "Serigrafista"
+   ]
+  },
+  {
+   "palavras": [
+    "placa",
+    "letreiro",
+    "faixa",
+    "adesivo"
+   ],
+   "ocupacoes": [
+    "letreiros",
+    "Cartazista"
+   ]
+  },
+  {
+   "palavras": [
+    "panfleto",
+    "panfletagem",
+    "divulgacao"
+   ],
+   "ocupacoes": [
+    "Panfleteiro",
+    "Bike propagandista"
+   ]
+  },
+  {
+   "palavras": [
+    "sapato",
+    "sapateiro"
+   ],
+   "ocupacoes": [
+    "Sapateiro"
+   ]
+  },
+  {
+   "palavras": [
+    "bicicleta",
+    "bike"
+   ],
+   "ocupacoes": [
+    "Reparador(a) de bicicleta",
+    "Bikeboy",
+    "Locador(a) de bicicletas"
+   ]
+  },
+  {
+   "palavras": [
+    "relogio",
+    "relojoeiro"
+   ],
+   "ocupacoes": [
+    "Relojoeiro"
+   ]
+  },
+  {
+   "palavras": [
+    "extintor",
+    "incendio"
+   ],
+   "ocupacoes": [
+    "extintor",
+    "prevenção contra incêndio"
+   ]
+  },
+  {
+   "palavras": [
+    "antena"
+   ],
+   "ocupacoes": [
+    "antenas de TV"
+   ]
+  },
+  {
+   "palavras": [
+    "camera",
+    "alarme",
+    "seguranca eletronica",
+    "cerca eletrica"
+   ],
+   "ocupacoes": [
+    "equipamentos de segurança domiciliar"
+   ]
+  },
+  {
+   "palavras": [
+    "turismo",
+    "guia",
+    "excursao"
+   ],
+   "ocupacoes": [
+    "Guia de turismo",
+    "Organizador(a) de excursões",
+    "Promotor(a) de turismo"
+   ]
+  },
+  {
+   "palavras": [
+    "digitacao",
+    "digitador"
+   ],
+   "ocupacoes": [
+    "Digitador"
+   ]
+  }
+ ],
+ "naoAceitos": [
+  {
+   "palavras": [
+    "faxina",
+    "faxineira",
+    "faxineiro",
+    "diarista",
+    "limpeza",
+    "limpar",
+    "domestica",
+    "empregada",
+    "zeladoria",
+    "conservacao"
+   ],
+   "texto": "**Faxina, diarista e limpeza em geral não aparecem** nas listas oficiais de hoje.",
+   "parecidos": [
+    "Lavador(a) de estofado e sofá",
+    "Piscineiro(a)",
+    "Fosseiro (limpador de fossa)",
+    "Lavadeiro(a) de roupas"
+   ]
+  },
+  {
+   "palavras": [
+    "baba",
+    "bab",
+    "creche",
+    "cuidar de crianca"
+   ],
+   "texto": "**Babá** não aparece nas listas oficiais de hoje.",
+   "parecidos": [
+    "Cuidador(a) de idosos e enfermos",
+    "Animador(a) de festas"
+   ]
+  },
+  {
+   "palavras": [
+    "motorista",
+    "uber",
+    "taxi",
+    "motoboy",
+    "entregador"
+   ],
+   "texto": "**Motorista de passageiros e motoboy** não aparecem nas listas oficiais de hoje.",
+   "parecidos": [
+    "Bikeboy (ciclista mensageiro)",
+    "Carroceiro - transporte de carga",
+    "Carregador veículos"
+   ]
+  },
+  {
+   "palavras": [
+    "vendedor",
+    "vendedora",
+    "revendedora",
+    "loja",
+    "comercio"
+   ],
+   "texto": "As linhas para MEI são de **serviços**, não de revenda de produtos.",
+   "parecidos": []
+  }
+ ],
+ "listas": {
+  "03/2025": {
+   "nome": "Manutenção e pequenos reparos",
+   "url": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao/edital-de-credenciamento-03-2025-servicos/1-anexo-i-lista-de-servicos.pdf/@@display-file/file"
+  },
+  "03/2026": {
+   "nome": "Eventos e ações institucionais",
+   "url": "https://www.gov.br/contratamaisbrasil/pt-br/central-de-conteudo/editais-e-regulamentacao/edital-credenciamento-03-2026-eventos/2-0-anexo-i-lista-de-servicos.pdf/@@display-file/file"
+  }
+ },
+ "ocupacoes": [
+  {
+   "n": "Adestrador(a) de animais",
+   "c": "9609-2/07",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Cuidados com Animais"
+   ]
+  },
+  {
+   "n": "Adestrador(a) de cães de guarda",
+   "c": "8011-1/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Cuidados com Animais"
+   ]
+  },
+  {
+   "n": "Alfaiate",
+   "c": "1412-6/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Amolador(a) de artigos de cutelaria",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Animador(a) de festas",
+   "c": "9329-8/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Recreação, Entretenimento e Atrações Artísticas"
+   ]
+  },
+  {
+   "n": "Armador(a) de ferragens na construção civil",
+   "c": "2599-3/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Artesão têxtil",
+   "c": "1359-6/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) de bijuterias",
+   "c": "3212-4/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em borracha",
+   "c": "2219-6/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em cerâmica",
+   "c": "2349-4/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em cimento",
+   "c": "2330-3/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em cortiça, bambu e afins",
+   "c": "1629-3/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em couro",
+   "c": "1529-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em gesso",
+   "c": "2330-3/99",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em louças, vidro e cristal",
+   "c": "2399-1/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em madeira",
+   "c": "1629-3/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em metais",
+   "c": "2599-3/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em metais preciosos",
+   "c": "3211-6/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em mármore, granito, ardósia e outras pedras",
+   "c": "2391-5/03",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em outros materiais",
+   "c": "3299-0/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em papel",
+   "c": "1749-4/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em plástico",
+   "c": "2229-3/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Artesão(ã) em vidro",
+   "c": "2319-2/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Azulejista",
+   "c": "4330-4/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Banhista de animais domésticos",
+   "c": "9609-2/08",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Cuidados com Animais"
+   ]
+  },
+  {
+   "n": "Barbeiro",
+   "c": "9602-5/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Beneficiador(a) de castanha",
+   "c": "1031-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Bike propagandista",
+   "c": "7319-0/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Marketing e Publicidade"
+   ]
+  },
+  {
+   "n": "Bikeboy (ciclista mensageiro)",
+   "c": "5320-2/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Bolacheiro(a)/biscoiteiro(a)",
+   "c": "1092-9/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Bombeiro(a) hidráulico",
+   "c": "4322-3/01",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Boneleiro(a) (fabricante de bonés)",
+   "c": "1414-2/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Bordadeiro(a)",
+   "c": "1340-5/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Borracheiro(a)",
+   "c": "4520-0/06",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Britador",
+   "c": "2391-5/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Cabeleireiro(a)",
+   "c": "9602-5/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Calafetador(a)",
+   "c": "4330-4/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Calheiro (a), montagem de estruturas",
+   "c": "4399-1/99",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Cantor(a)/músico(a)",
+   "c": "9001-9/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Sonorização, Iluminação e Apresentações Musicais"
+   ]
+  },
+  {
+   "n": "Capoteiro(a)",
+   "c": "4520-0/08",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Carpinteiro(a)",
+   "c": "1622-6/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Carpinteiro(a) instalador(a)",
+   "c": "4330-4/02",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Carregador veículos",
+   "c": "5212-5/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Carroceiro - coleta de entulhos e resíduos",
+   "c": "3811-4/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Carroceiro - transporte de carga",
+   "c": "4930-2/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Cartazista, pintor de",
+   "c": "8299-7/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Cerqueiro(a)",
+   "c": "4399-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Chaveiro(a)",
+   "c": "9529-1/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Chocolateiro(a)",
+   "c": "1093-7/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Churrasqueiro(a) ambulante",
+   "c": "5612-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Churrasqueiro(a) em domicílio",
+   "c": "5620-1/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Colocador(a) de revestimentos",
+   "c": "4330-4/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Compoteiro(a)",
+   "c": "1031-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Confeccionador(a) de carimbos",
+   "c": "3299-0/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Confeiteiro(a)",
+   "c": "1091-1/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Costureiro(a) de roupas sob medida",
+   "c": "1412-6/02",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Costureiro(a) de roupas, exceto sob medida",
+   "c": "1412-6/01",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Cozinheiro(a) que fornece refeições prontas e embaladas para consumo",
+   "c": "5620-1/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Crocheteiro(a)",
+   "c": "1422-3/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Cuidador(a) de idosos e enfermos",
+   "c": "8712-3/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Cunhador(a) de moedas e medalhas",
+   "c": "3211-6/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Customizador(a) de roupas",
+   "c": "1340-5/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Depilador(a)",
+   "c": "9602-5/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Digitador(a)",
+   "c": "8219-9/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Reprodução e Impressão"
+   ]
+  },
+  {
+   "n": "Disc jockey (DJ) ou video jockey (VJ)",
+   "c": "9001-9/06",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Sonorização, Iluminação e Apresentações Musicais"
+   ]
+  },
+  {
+   "n": "Distribuidor(a) de água potável em caminhão pipa",
+   "c": "3600-6/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Doceiro(a)",
+   "c": "5620-1/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Dublador(a)",
+   "c": "5912-0/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locução e Áudio"
+   ]
+  },
+  {
+   "n": "Editor(a) de vídeo",
+   "c": "5912-0/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fotografia, Filmagem e Produção Audiovisual"
+   ]
+  },
+  {
+   "n": "Eletricista de automóveis",
+   "c": "4520-0/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Eletricista em residências e estabelecimentos comerciais",
+   "c": "4321-5/00",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Encadernador(a)/ plastificador(a)",
+   "c": "1822-9/01",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Reprodução e Impressão"
+   ]
+  },
+  {
+   "n": "Encanador",
+   "c": "4322-3/01",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Engraxate",
+   "c": "9609-2/99",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Estampador(a) de peças do vestuário",
+   "c": "1340-5/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Esteticista",
+   "c": "9602-5/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Esteticista de animais domésticos",
+   "c": "9609-2/08",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Cuidados com Animais"
+   ]
+  },
+  {
+   "n": "Estofador(a)",
+   "c": "9529-1/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Fabricante de alimentos prontos congelados",
+   "c": "1096-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de amendoim e castanha de caju torrados e salgados",
+   "c": "1031-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de amido e féculas de vegetais",
+   "c": "1065-1/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de artefatos de funilaria",
+   "c": "2532-2/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de artefatos estampados de metal, sob encomenda ou não",
+   "c": "2532-2/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de artefatos para pesca e esporte",
+   "c": "3230-2/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de artefatos têxteis para uso doméstico",
+   "c": "1351-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de artigos de cutelaria",
+   "c": "2541-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de aviamentos para costura",
+   "c": "3299-0/05",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de açúcar mascavo",
+   "c": "1071-6/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de balas, confeitos e frutas cristalizadas",
+   "c": "1093-7/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de bolsas/bolseiro",
+   "c": "1521-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de brinquedos não eletrônicos",
+   "c": "3240-0/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Recreação, Entretenimento e Atrações Artísticas"
+   ]
+  },
+  {
+   "n": "Fabricante de calçados de borracha, madeira e tecidos e fibras",
+   "c": "1539-4/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de calçados de couro",
+   "c": "1531-9/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de chá",
+   "c": "1099-6/05",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de cintos/cinteiro",
+   "c": "1414-2/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de conservas de frutas",
+   "c": "1031-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de conservas de legumes e outros vegetais",
+   "c": "1032-5/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de embalagens de cartolina e papel-cartão",
+   "c": "1732-0/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de embalagens de madeira",
+   "c": "1623-4/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de embalagens de papel",
+   "c": "1731-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de especiarias",
+   "c": "1095-3/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de esquadrias metálicas, sob encomenda ou não",
+   "c": "2512-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Fabricante de gelo comum",
+   "c": "1099-6/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de guarda-chuvas e similares",
+   "c": "3299-0/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de guardanapos e copos de papel",
+   "c": "1742-7/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de jogos recreativos",
+   "c": "3240-0/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de laticínios",
+   "c": "1052-0/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de letreiros, placas e painéis não luminosos, sob encomenda ou não",
+   "c": "3299-0/03",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Fabricante de luminárias e outros equipamentos de iluminação",
+   "c": "2740-6/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de massas alimentícias",
+   "c": "1094-5/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de mochilas e carteiras",
+   "c": "1521-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de painéis e letreiros luminosos",
+   "c": "3299-0/04",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Fabricante de papel",
+   "c": "1721-4/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de partes de roupas profissionais - facção",
+   "c": "1413-4/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de partes de roupas íntimas - facção",
+   "c": "1411-8/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de partes para calçados",
+   "c": "1540-8/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de polpas de frutas",
+   "c": "1031-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de produtos de soja",
+   "c": "1099-6/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de produtos de tecido não tecido para uso odonto- médico-hospitalar",
+   "c": "3292-2/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fabricação e Produção Industrial"
+   ]
+  },
+  {
+   "n": "Fabricante de produtos derivados de carne",
+   "c": "1013-9/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de produtos derivados do arroz",
+   "c": "1061-9/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de pão de queijo congelado",
+   "c": "1091-1/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de rapadura e melaço",
+   "c": "1071-6/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de refrescos, xaropes e pós para refrescos",
+   "c": "1122-4/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de roupas íntimas",
+   "c": "1411-8/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Confecção e Costura"
+   ]
+  },
+  {
+   "n": "Fabricante de sucos concentrados de frutas, hortaliças e legumes",
+   "c": "1033-3/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de sucos de frutas, hortaliças e legumes",
+   "c": "1033-3/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Fabricante de velas, inclusive decorativas",
+   "c": "3299-0/06",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Farinheiro de mandioca",
+   "c": "1063-5/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Farinheiro de milho",
+   "c": "1064-3/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Filmador(a)",
+   "c": "7420-0/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fotografia, Filmagem e Produção Audiovisual"
+   ]
+  },
+  {
+   "n": "Fosseiro (limpador de fossa)",
+   "c": "3702-9/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Fotocopiador(a)",
+   "c": "8219-9/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Reprodução e Impressão"
+   ]
+  },
+  {
+   "n": "Fotógrafo(a)",
+   "c": "7420-0/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fotografia, Filmagem e Produção Audiovisual"
+   ]
+  },
+  {
+   "n": "Fotógrafo(a) aéreo",
+   "c": "7420-0/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fotografia, Filmagem e Produção Audiovisual"
+   ]
+  },
+  {
+   "n": "Fotógrafo(a) submarino",
+   "c": "7420-0/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fotografia, Filmagem e Produção Audiovisual"
+   ]
+  },
+  {
+   "n": "Funileiro/lanterneiro",
+   "c": "4520-0/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Galvanizador(a)",
+   "c": "2539-0/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Gesseiro(a)",
+   "c": "4330-4/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Gravador(a) de carimbos",
+   "c": "8299-7/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Guia de turismo",
+   "c": "7912-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Turismo e Guias"
+   ]
+  },
+  {
+   "n": "Humorista e contador de histórias",
+   "c": "9001-9/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Recreação, Entretenimento e Atrações Artísticas"
+   ]
+  },
+  {
+   "n": "Instalador(a) de antenas de TV",
+   "c": "4321-5/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de equipamentos de segurança domiciliar e empresarial, sem prestação de serviços de vigilância e segurança",
+   "c": "4321-5/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de isolantes acústicos e de vibração",
+   "c": "4329-1/05",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de isolantes térmicos",
+   "c": "4329-1/05",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de máquinas e equipamentos industriais",
+   "c": "3321-0/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de painéis publicitários",
+   "c": "4329-1/01",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de rede de computadores",
+   "c": "6190-6/99",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) de sistema de prevenção contra incêndio",
+   "c": "4322-3/03",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Manutenção e Reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) e reparador (a) de acessórios automotivos",
+   "c": "4520-0/07",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) e reparador de cofres, trancas e travas de segurança",
+   "c": "8020-0/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) e reparador(a) de elevadores, escadas e esteiras rolantes",
+   "c": "4329-1/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instalador(a) e reparador(a) de sistemas centrais de ar condicionado, de ventilação e refrigeração",
+   "c": "4322-3/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de arte e cultura em geral",
+   "c": "8592-9/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de artes cênicas",
+   "c": "8592-9/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de cursos gerenciais",
+   "c": "8599-6/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de cursos preparatórios",
+   "c": "8599-6/05",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de idiomas",
+   "c": "8593-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de informática",
+   "c": "8599-6/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Instrutor(a) de música",
+   "c": "8592-9/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Educação e Instrução"
+   ]
+  },
+  {
+   "n": "Jardineiro(a)",
+   "c": "8130-3/00",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Jardinagem e Paisagismo"
+   ]
+  },
+  {
+   "n": "Lapidador(a)",
+   "c": "3211-6/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Lavadeiro(a) de roupas",
+   "c": "9601-7/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Lavanderia e Higienização"
+   ]
+  },
+  {
+   "n": "Lavadeiro(a) de roupas profissionais",
+   "c": "9601-7/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Lavanderia e Higienização"
+   ]
+  },
+  {
+   "n": "Lavador(a) de estofado e sofá",
+   "c": "9609-2/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Lavador(a) e polidor de carro",
+   "c": "4520-0/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Locador de andaimes",
+   "c": "7732-2/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Locador(a) de aparelhos de jogos eletrônicos",
+   "c": "7729-2/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de bicicletas",
+   "c": "7721-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de equipamentos científicos, médicos e hospitalares, sem operador",
+   "c": "7739-0/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de equipamentos recreativos e esportivos",
+   "c": "7721-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de fitas de vídeo, DVDs e similares",
+   "c": "7722-5/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de instrumentos musicais",
+   "c": "7729-2/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de livros, revistas, plantas e flores",
+   "c": "7729-2/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de material e equipamento esportivo",
+   "c": "7721-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de material médico",
+   "c": "7729-2/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de máquinas e equipamentos agrícolas sem operador",
+   "c": "7731-4/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Locador(a) de máquinas e equipamentos para construção sem operador, exceto andaimes",
+   "c": "7732-2/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Locador(a) de máquinas e equipamentos para escritório",
+   "c": "7733-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de móveis e utensílios, inclusive para festas",
+   "c": "7729-2/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de objetos do vestuário, jóias e acessórios",
+   "c": "7723-3/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador",
+   "c": "7739-0/99",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",
+   "c": "7739-0/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locador(a) de vídeo games",
+   "c": "7722-5/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locação de Equipamentos, Estruturas e Mobiliário"
+   ]
+  },
+  {
+   "n": "Locutor(a) de mensagens fonadas e ao vivo",
+   "c": "9609-2/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Locução e Áudio"
+   ]
+  },
+  {
+   "n": "Manicure/pedicure",
+   "c": "9602-5/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Maquiador(a)",
+   "c": "9602-5/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Beleza, Cuidados Pessoais e Caracterização"
+   ]
+  },
+  {
+   "n": "Marceneiro(a) sob encomenda ou não",
+   "c": "3101-2/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Marmiteiro(a)",
+   "c": "5620-1/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Mecânico(a) de motocicletas e motonetas",
+   "c": "4543-9/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Mecânico(a) de veículos",
+   "c": "4520-0/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Montador(a) de móveis",
+   "c": "3329-5/01",
+   "e": [
+    "03/2025",
+    "03/2026"
+   ],
+   "g": [
+    "Montagem, Instalação e Apoio Logístico"
+   ]
+  },
+  {
+   "n": "Montador(a) e instalador de sistemas e equipamentos de iluminação e sinalização em vias públicas, portos e aeroportos",
+   "c": "4329-1/04",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Mágico(a)",
+   "c": "9329-8/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Recreação, Entretenimento e Atrações Artísticas"
+   ]
+  },
+  {
+   "n": "Organizador(a) de excursões em veículo próprio, municipal",
+   "c": "4929-9/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Turismo e Guias"
+   ]
+  },
+  {
+   "n": "Ourives",
+   "c": "9529-1/06",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Padeiro(a)",
+   "c": "1091-1/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Panfleteiro(a)",
+   "c": "7319-0/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Marketing e Publicidade"
+   ]
+  },
+  {
+   "n": "Pastilheiro(a)",
+   "c": "4330-4/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Pedreiro",
+   "c": "4399-1/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Pintor(a) de automóveis",
+   "c": "4520-0/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Pintor(a) de parede",
+   "c": "4330-4/04",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Pipoqueiro(a)",
+   "c": "5612-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Piscineiro(a)",
+   "c": "8129-0/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Pizzaiolo(a) em domicílio",
+   "c": "5620-1/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Poceiro/cisterneiro/cacimbeiro",
+   "c": "4399-1/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Prestador(a) de serviços de colheita sob contrato de empreitada",
+   "c": "0161-0/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Prestador(a) de serviços de poda sob contrato de empreitada",
+   "c": "0161-0/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Prestador(a) de serviços de preparação de terrenos sob contrato de empreitada",
+   "c": "0161-0/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Prestador(a) de serviços de roçagem, destocamento, lavração, gradagem e sulcamento sob contrato de empreitada",
+   "c": "0161-0/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Prestador(a) de serviços de semeadura sob contrato de empreitada",
+   "c": "0161-0/03",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Promotor(a) de eventos",
+   "c": "8230-0/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Organização e Produção de Eventos"
+   ]
+  },
+  {
+   "n": "Promotor(a) de turismo local",
+   "c": "7990-2/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Turismo e Guias"
+   ]
+  },
+  {
+   "n": "Proprietário(a) de casas de festas e eventos",
+   "c": "8230-0/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Organização e Produção de Eventos"
+   ]
+  },
+  {
+   "n": "Queijeiro(a)/manteigueiro(a)",
+   "c": "1052-0/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Quitandeiro(a) ambulante",
+   "c": "5612-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Recarregador(a) de cartuchos para equipamentos de informática",
+   "c": "4751-2/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Redeiro(a)",
+   "c": "1353-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Relojoeiro(a)",
+   "c": "",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Rendeiro(a)",
+   "c": "1359-6/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Reparador (a) de artigos de tapeçaria",
+   "c": "9529-1/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de aparelhos e equipamentos para distribuição e controle de energia elétrica",
+   "c": "3313-9/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de artigos e acessórios do vestuário",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de balanças industriais e comerciais",
+   "c": "3314-7/10",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de baterias e acumuladores elétricos, exceto para veículos",
+   "c": "3313-9/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de bicicleta",
+   "c": "9529-1/04",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de brinquedos",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de cordas, velames e lonas",
+   "c": "3319-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de embarcações para esporte e lazer",
+   "c": "3317-1/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de equipamentos esportivos",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de equipamentos hidráulicos e pneumáticos, exceto válvulas",
+   "c": "3314-7/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de equipamentos médico-hospitalares não eletrônicos",
+   "c": "3319-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de extintor de incêndio",
+   "c": "3314-7/10",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de filtros industriais",
+   "c": "3314-7/10",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de geradores, transformadores e motores elétricos",
+   "c": "3313-9/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de guarda chuva e sombrinhas",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de instrumentos musicais",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas de escrever, calcular e de outros equipamentos não eletrônicos para escritório",
+   "c": "3314-7/09",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial",
+   "c": "3314-7/07",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas e equipamentos para a indústria da madeira",
+   "c": "3314-7/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas e equipamentos para a indústria têxtil, do vestuário, do couro e calçados",
+   "c": "3314-7/20",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas e equipamentos para agricultura e pecuária",
+   "c": "3314-7/11",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo",
+   "c": "3314-7/19",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas gráfica",
+   "c": "3314-7/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas para encadernação",
+   "c": "3314-7/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de máquinas, aparelhos e equipamentos para instalações térmicas",
+   "c": "3314-7/06",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de móveis",
+   "c": "9529-1/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de panelas (paneleiro)",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de tanques, reservatórios metálicos e caldeiras, exceto para veículos",
+   "c": "3311-2/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de toldos e persianas",
+   "c": "9529-1/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de tonéis, barris e paletes de madeira",
+   "c": "3319-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de tratores agrícolas",
+   "c": "3314-7/12",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) de veículos de tração animal",
+   "c": "3319-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) manutenção e reparação de máquinas e equipamentos para uso geral não especificados anteriormente",
+   "c": "3314-7/10",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Reparador(a) manutenção e reparação de máquinas motrizes não elétricas",
+   "c": "3314-7/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Restaurador(a)",
+   "c": "3319-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Restaurador(a) de instrumentos musicais históricos",
+   "c": "3319-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Restaurador(a) de livros",
+   "c": "9529-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Restaurador(a) de obras de arte",
+   "c": "9002-7/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Retificador(a) de motores para veículos automotores",
+   "c": "2950-6/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Revelador(a) fotográfico",
+   "c": "7420-0/03",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Fotografia, Filmagem e Produção Audiovisual"
+   ]
+  },
+  {
+   "n": "Salgadeiro(a)",
+   "c": "5620-1/04",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Salsicheiro(a)/linguiceiro(a)",
+   "c": "1013-9/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Sapateiro(a)",
+   "c": "9529-1/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Serigrafista",
+   "c": "1813-0/99",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Serigrafista publicitário",
+   "c": "1813-0/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Comunicação Visual e Divulgação"
+   ]
+  },
+  {
+   "n": "Serralheiro(a), exceto para esquadrias, sob encomenda ou não",
+   "c": "2542-0/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Sintequeiro(a)",
+   "c": "4330-4/05",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Soldador(a)/brasador(a)",
+   "c": "2539-0/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Sorveteiro(a) ambulante",
+   "c": "5612-1/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Tecelão(ã)",
+   "c": "1322-7/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Tecelão(ã) de algodão",
+   "c": "1321-9/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Telhador(a)",
+   "c": "4399-1/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Tintureiro(a)",
+   "c": "9601-7/02",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Torneiro(a) mecânico",
+   "c": "2539-0/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Tosador(a) de animais domésticos",
+   "c": "9609-2/08",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Cuidados com Animais"
+   ]
+  },
+  {
+   "n": "Tosquiador(a)",
+   "c": "0162-8/02",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Cuidados com Animais"
+   ]
+  },
+  {
+   "n": "Tricoteiro(a)",
+   "c": "1422-3/00",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Artesanato, Tecelagem e Produção Artesanal"
+   ]
+  },
+  {
+   "n": "Técnico(a) de manutenção de computador",
+   "c": "9511-8/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Técnico(a) de manutenção de eletrodomésticos",
+   "c": "9521-5/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Técnico(a) de manutenção de telefonia",
+   "c": "9512-6/00",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Técnico(a) de sonorização e de iluminação",
+   "c": "9001-9/06",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Sonorização, Iluminação e Apresentações Musicais"
+   ]
+  },
+  {
+   "n": "Vidraceiro de automóveis",
+   "c": "4520-0/01",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Vidraceiro de edificações",
+   "c": "4330-4/99",
+   "e": [
+    "03/2025"
+   ],
+   "g": [
+    "Manutenção e pequenos reparos"
+   ]
+  },
+  {
+   "n": "Vinagreiro",
+   "c": "1099-6/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Alimentação"
+   ]
+  },
+  {
+   "n": "Viveirista",
+   "c": "0121-1/01",
+   "e": [
+    "03/2026"
+   ],
+   "g": [
+    "Jardinagem e Paisagismo"
+   ]
+  }
+ ]
+}

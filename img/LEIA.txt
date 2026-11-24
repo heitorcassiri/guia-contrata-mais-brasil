@@ -1,0 +1,1 @@
+Coloque aqui os prints: passo-1.png ... passo-7.png (veja README.md, item 4).
